@@ -24,16 +24,16 @@
         }
     ],
     "require": {
-        "php": "^7.3 |^8.0",
+        "php": ">=7.3",
         "guzzlehttp/guzzle": "^7.2",
-        "guzzlehttp/promises": "^1.4",
-        "guzzlehttp/psr7": "^1.7",
-        "illuminate/support": "^7.0 || ^8.0",
-        "psr/http-message": "^1.0"
+        "guzzlehttp/promises": "^1.4 || ^2.0",
+        "guzzlehttp/psr7": "^1.7 || ^2.0",
+        "illuminate/support": "^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "psr/http-message": "^1.0 || ^2.0"
     },
     "require-dev": {
-        "illuminate/routing": "^7.0 || ^8.0",
-        "phpunit/phpunit": "^9.5"
+        "illuminate/routing": "^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "phpunit/phpunit": "^9.5 || ^10.0 || ^11.0"
     },
     "autoload": {
         "psr-4": {
